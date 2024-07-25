@@ -1,8 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## My Portfolio
+
+Hello my name Nurul Musthofa. I'm Junior Web Development, this is my personal portfolio website! This project showcases, skills, and experience in web development.
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running, follow these steps.
+
+## Prerequisites
+
+Make sure you have Node.js installed. If not, download and install it from [Node.js](https://nodejs.org/id) official website.
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Mustofawho0/my-porto-v2.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd your-repo-name
+```
+
+3. Install the dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+## Running the Development Server
+
+To start the development server, run:
 
 ```bash
 npm run dev
@@ -14,23 +48,26 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 with your browser to see your project.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Interactive and responsive design
 
-## Learn More
+2. Showcases projects and skills
 
-To learn more about Next.js, take a look at the following resources:
+3. Contact form for easy communication
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+If you have suggestions for improvement, please feel free to create a pull request or open an issue.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Distributed under the MIT License. See LICENSE for more information.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contact
+
+Nurul Musthofa - mustofawho@gmail.com
+
+Project Link :
