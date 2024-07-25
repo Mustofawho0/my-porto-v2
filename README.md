@@ -56,7 +56,7 @@ Open http://localhost:3000 with your browser to see your project.
 
 2. Showcases projects and skills
 
-3. Contact form for easy communication
+3. Contact form for easy communication (on going)
 
 ## Contributing
 
