@@ -77,7 +77,10 @@ function HeroPage() {
               </div>
               <div className='flex gap-5 items-center w-full'>
                 <Link
-                  href={'#'}
+                  target={'_blank'}
+                  href={
+                    'https://drive.google.com/file/d/1Iu-2TCGjJM4EkQEc7KsWQnP9rf-9fdHe/view?usp=drive_link'
+                  }
                   className='bg-gradient-to-r to-pink-500 from-violet-600 p-[1px] rounded-full hover:from-pink-500 hover:to-violet-600 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105'
                 >
                   <button className='border-none px-5 py-2 rounded-full h-[5vh] sm:text-lg xl:text-lg lg:text-sm mobile:text-xs flex gap-1 items-center bg-black shadow-lg shadow-pink-500/60 justify-center'>
@@ -86,7 +89,7 @@ function HeroPage() {
                   </button>
                 </Link>
                 <Link
-                  href={'#'}
+                  href={'#contact'}
                   className='bg-gradient-to-r to-violet-600 from-pink-500 p-[1px] rounded-full hover:from-violet-600 hover:to-pink-500 transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105'
                 >
                   <button className='border-none px-5 py-2 rounded-full h-[5vh] sm:text-lg xl:text-lg lg:text-sm mobile:text-xs flex gap-2 items-center bg-black shadow-lg shadow-pink-500/60 justify-center'>

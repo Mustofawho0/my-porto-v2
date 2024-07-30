@@ -1,37 +1,25 @@
 export const cardProject = [
   {
     id: 1,
-    name: 'Test 1',
-    designation: 'Designation 1',
-    imageUrl: '/adoptionsocialmediaSH.png',
-    link: 'https://google.com',
+    name: 'Personal Portfolio',
+    designation:
+      'This is my personal portfolio website. This project showcases, skills, and experience in web development.',
+    imageUrl: '/portfolio1.png',
+    link: 'https://portfolio-nurul-musthofa.vercel.app/',
   },
   {
     id: 2,
-    name: 'Test 2',
-    designation: 'Designation 2',
-    imageUrl: '/blog-4-1.jpg',
-    link: 'https://youtube.com',
+    name: 'Clone FHCI BUMN',
+    designation:
+      'This project is a clone of FHCI BUMN, created with Next.js, TailwindCSS, Fecting data from API using Axios and Deployed with Vercel.',
+    imageUrl: '/project1.png',
+    link: 'https://clone-fhci.vercel.app/',
   },
   {
     id: 3,
-    name: 'Test 3',
-    designation: 'Designation 3',
-    imageUrl: '/desertpea.jpg',
-    link: 'https://twitter.com',
-  },
-  {
-    id: 4,
-    name: 'Test 4',
-    designation: 'Designation 4',
-    imageUrl: '/example.jpg',
-    link: 'https://facebook.com',
-  },
-  {
-    id: 5,
-    name: 'Test 5',
-    designation: 'Designation 5',
-    imageUrl: '/project.png',
-    link: 'https://instagram.com',
+    name: 'Grocery App',
+    designation: 'On Going Project',
+    imageUrl: '/project2.png',
+    link: '#',
   },
 ];

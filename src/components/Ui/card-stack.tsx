@@ -45,13 +45,13 @@ export const CardStack = ({
   };
 
   return (
-    <div className='relative flex items-center justify-center w-full h-80 lg:pr-[30vw] xxl:pr-[30vw] fhd:pr-[22vw] mobile:pr-[85vw] sm:pr-[80vw] md:pr-[70vw]'>
+    <div className='relative flex items-center justify-center w-full h-80 lg:pr-[35vw] xxl:pr-[30vw] fhd:pr-[27vw] mobile:pr-[85vw] sm:pr-[80vw] md:pr-[70vw]'>
       {cards.map((card, index) => {
         return card.imageUrl ? (
           <Link href={`${card.link}`} target='blank' key={card.id}>
             <motion.div
               key={card.id}
-              className='absolute from-[#0d1224] border-[#1b2c68a0] bg-gradient-to-r to-[#0a0d37] rounded-3xl  shadow-xl border xxl:w-[30vw] fhd:w-[25vw] lg:w-[30vw] mobile:w-[85.5vw] sm:w-[80vw] md:w-[70vw] mobile:h-80 lg:h-80 xxl:h-96 fhd:h-96 shadow-black/[0.1] flex flex-col justify-between'
+              className='absolute from-[#0d1224] border-[#1b2c68a0] h-[420px] bg-gradient-to-r to-[#0a0d37] rounded-3xl shadow-xl border xxl:w-[30vw] fhd:w-[27vw] lg:w-[35vw] mobile:w-[85.5vw] sm:w-[80vw] md:w-[70vw] mobile:h-80 lg:h-[370px] xxl:h-[420px] fhd:h-[420px] shadow-black/[0.1] flex flex-col justify-between'
               style={{
                 transformOrigin: 'top center',
               }}
@@ -65,21 +65,23 @@ export const CardStack = ({
                 <div className='h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-500'></div>
                 <div className='h-[1px] w-full bg-gradient-to-r from-violet-500 to-transparent'></div>
               </div>
-              <div className='flex items-center justify-center h-full w-full'>
+              <div className='flex items-center justify-center w-full'>
                 <Image
                   src={`${card.imageUrl}`}
                   alt={card.name}
                   width={10000}
                   height={10000}
                   loading='lazy'
-                  className='xxl:w-[400px] xxl:h-[250px] object-cover rounded-lg mobile:w-[300px] mobile:h-[170px] sm:w-[450px] lg:w-[250px] lg:h-[170px] xl:w-[350px] fhd:w-[400px] fhd:h-[250px]'
+                  className='xxl:w-[400px] xxl:h-[250px] object-cover rounded-lg mobile:w-[300px] mobile:h-[170px] sm:w-[450px] lg:w-[300px] lg:h-[200px] xl:w-[350px] fhd:w-[450px] fhd:h-[250px]'
                 />
               </div>
               <div className='p-4'>
                 <p className='text-white font-bold tracking-wide py-2 uppercase'>
                   {card.name}
                 </p>
-                <p className='text-white font-normal'>{card.designation}</p>
+                <p className='text-white font-normal text-sm mobile:text-xs'>
+                  {card.designation}
+                </p>
               </div>
             </motion.div>
           </Link>
@@ -87,7 +89,7 @@ export const CardStack = ({
           <div className='' key={card.id}>
             <motion.div
               key={card.id}
-              className='absolute from-[#0d1224] border-[#1b2c68a0] bg-gradient-to-r to-[#0a0d37] rounded-3xl  shadow-xl border xxl:w-[30vw] fhd:w-[25vw] lg:w-[30vw] mobile:w-[85.5vw] sm:w-[80vw] md:w-[70vw] mobile:h-96 lg:h-80 xxl:h-96 fhd:h-96 shadow-black/[0.1] flex flex-col justify-between'
+              className='absolute from-[#0d1224] border-[#1b2c68a0] bg-gradient-to-r sm:h-96 to-[#0a0d37] rounded-3xl  shadow-xl border xxl:w-[30vw] fhd:w-[25vw] lg:w-[35vw] mobile:w-[85.5vw] sm:w-[80vw] md:w-[70vw] mobile:h-96 lg:h-80 xxl:h-96 fhd:h-96 shadow-black/[0.1] flex flex-col justify-between'
               style={{
                 transformOrigin: 'top center',
               }}

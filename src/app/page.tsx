@@ -24,10 +24,10 @@ export default function Home() {
         </div>
       ) : (
         <TracingBeam>
-          <HeroPage />
-          <AboutPage />
+          {/* <HeroPage />
+          <AboutPage /> */}
           <ProjectPage />
-          <ContactPage />
+          {/* <ContactPage /> */}
         </TracingBeam>
       )}
     </main>
