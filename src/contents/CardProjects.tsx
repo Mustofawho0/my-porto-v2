@@ -17,9 +17,10 @@ export const cardProject = [
   },
   {
     id: 3,
-    name: 'Grocery App',
-    designation: 'On Going Project',
+    name: 'My ToDo App',
+    designation:
+      'This project is a simple to-do list application created with Next.js, React-Redux, Redux-Toolkit, Shadcn UI, Lucide React, and Tailwind CSS. ',
     imageUrl: '/project2.png',
-    link: '#',
+    link: 'https://redux-todos-v1.vercel.app/',
   },
 ];

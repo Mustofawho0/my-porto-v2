@@ -16,7 +16,7 @@ function Navbar() {
             <span className='text-[#7a35b4]'>WHO</span>
           </div>
         </Link>
-        <div className='hidden lg:block'>
+        <div className='hidden lg:block bg-transparent'>
           <ul className='flex gap-5 tracking-wide font-semibold'>
             <li>
               <Link

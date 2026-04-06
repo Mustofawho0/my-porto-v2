@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Marquee from 'react-fast-marquee';
 import CarouselComponents from './Carousel';
 import AOS from 'aos';
-import 'aos/dist/aos.css';
+// import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 function AboutPage() {
   useEffect(() => {
@@ -63,14 +63,22 @@ function AboutPage() {
                       descriptions:
                     </span>
                     <span className='text-blue-500 mobile:text-sm'>
-                      'I am a dedicated Junior Web Developer with skills in
-                      HTML, CSS, and JavaScript, as well as basic knowledge of
-                      React.js. I focus on creating responsive and intuitive
-                      user experiences. I continually learn new technologies and
-                      actively engage with developer communities to enhance my
-                      skills. I also have basic on Backend especially on
-                      Express, Node JS, and Prisma. I am available for any kind
-                      of job opportunity that suits my skills and interests.'
+                      'I am Nurul Musthofa, a Junior Web Developer with a
+                      Bachelor's degree in Information Technology and 1 year of
+                      work experience, and I have participated in a bootcamp as
+                      programmer by learning as Full-stack web development. I am
+                      focused on developing responsive, easy-to-use websites and
+                      focus on Front-end web development. Proficient in HTML,
+                      CSS, JavaScript, and React.js, I also have a fundamental
+                      in backend technologies such as Express.js, Node.js,
+                      Prisma or MySQL, and PHP with framework Laravel, along
+                      with skills in Microsoft Office. I did not include all
+                      projects in this cv, but I attached GitHub to see my
+                      productivity. Committed to honesty, responsibility, and
+                      continuous growth, I am excited to explore new
+                      technologies to enhance my skills. I am open to any job
+                      opportunity that suits with my skills and open to any job
+                      that can increase my value and my experience.'
                     </span>
                     <span>,</span>
                   </div>

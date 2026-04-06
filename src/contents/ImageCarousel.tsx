@@ -49,4 +49,14 @@ export const image = [
     imageUrl: '/nextJS.5d08e3a4.svg',
     name: 'NextJS',
   },
+  {
+    id: 11,
+    imageUrl: '/prisma.svg',
+    name: 'Prisma',
+  },
+  {
+    id: 12,
+    imageUrl: '/jira.svg',
+    name: 'Jira',
+  },
 ] as const;

@@ -4,7 +4,7 @@ import { CardStack } from '../Ui/card-stack';
 import { cardProject } from '@/contents/CardProjects';
 import { cardExperiences } from '@/contents/CardExperiences';
 import AOS from 'aos';
-import 'aos/dist/aos.css';
+// import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 function ProjectPage() {
   useEffect(() => {
