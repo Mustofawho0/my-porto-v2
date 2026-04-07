@@ -46,7 +46,7 @@ function ProjectPage() {
               <span className='uppercase text-white tracking-wider text-2xl font-semibold underline underline-offset-2 decoration-pink-500'>
                 experiences
               </span>
-              <div className='flex items-center justify-center h-[30rem]'>
+              <div className='flex items-center justify-center h-[30rem] md:text-[16px] mobile:text-[14px]'>
                 <CardStack items={cardExperiences} />
               </div>
             </div>

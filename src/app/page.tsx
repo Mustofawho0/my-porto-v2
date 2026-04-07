@@ -23,12 +23,12 @@ export default function Home() {
           <span className='loading loading-spinner loading-lg bg-violet-600'></span>
         </div>
       ) : (
-        <>
+        <div className='min-h-screen'>
           <HeroPage />
           <AboutPage />
           <ProjectPage />
           <ContactPage />
-        </>
+        </div>
         // <TracingBeam>
 
         // </TracingBeam>

@@ -22,7 +22,7 @@ function HeroPage() {
   return (
     <div className='bg-gray-900/90'>
       <div className='min-h-screen sm:px-[10vw] px-4'>
-        <div className='flex items-center justify-center text-white mobile:text-sm'>
+        <div className='flex items-center justify-center text-white mobile:text-sm pb-14 md:mt-[-60px]'>
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 gap-y-8 w-full mt-[10vw]'>
             <div
               className='font-bold lg:text-5xl tracking-wide mobile:text-xl text-4xl  '

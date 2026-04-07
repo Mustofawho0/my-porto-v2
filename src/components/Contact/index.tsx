@@ -21,7 +21,7 @@ function ContactPage() {
     <div className='bg-gray-900/90'>
       <div className='min-h-screen sm:px-[10vw] px-4'>
         <div id='contact' className='flex pt-28'>
-          <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 gap-y-8 w-full'>
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 gap-y-8 w-full pb-10 md:mt-[-80px]'>
             <div
               data-aos='zoom-in'
               className='rounded-lg from-[#0d1224] border-[#1b2c68a0] relative border bg-gradient-to-r to-[#0a0d37]'
@@ -30,7 +30,7 @@ function ContactPage() {
                 <div className='h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-500'></div>
                 <div className='h-[1px] w-full bg-gradient-to-r from-violet-500 to-transparent'></div>
               </div>
-              <div className='p-10'>
+              <div className='p-8'>
                 <h2 className='font-bold text-2xl text-white'>Get in Touch</h2>
                 <p className='text-white text-sm pt-2 '>
                   If you have any questions, please don't hesitate to contact
